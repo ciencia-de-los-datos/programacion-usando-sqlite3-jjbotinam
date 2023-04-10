@@ -40,4 +40,4 @@
 -- 
 SELECT COUNT(*)
 FROM tbl1
-WHERE YEAR = "2018";
+WHERE strftime('%Y', tbl1.c14) = "2018";
